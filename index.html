@@ -1,0 +1,381 @@
+﻿<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+<link rel="stylesheet" href="Responsive.css">
+<head>
+
+<style>
+body{background-image:url("desert-moon-clean-sky-hills.png");}
+div.a {
+width: 200px;
+height:150px;
+font-size:140%;
+font-family: sans-serif;
+padding-top:84px;
+text-align:center;
+color:#ffffff;
+ background-image:url("13-cloud-png-image-thumb.png");
+ background-position:relative;
+ background-size:cover;
+	position:fixed;
+}
+div.b {
+width: 200px;
+height:150px;
+padding-top:84px;
+text-align:center;
+font-size:140%;
+font-family: sans-serif;
+color:#ffffff;
+ background-image:url("13-cloud-png-image-thumb.png");
+ background-position:relative;
+ background-size:cover;
+ position:fixed;  
+}
+div.c {
+width: 200px;
+height:150px;
+font-size:140%;
+font-family: sans-serif;
+padding-top:84px;
+text-align:center;
+color:#ffffff;
+ background-image:url("13-cloud-png-image-thumb.png");
+ background-position:relative;
+ background-size:cover;
+	position:fixed;   
+}
+div.d {
+width: 200px;
+height:150px;
+padding-top:84px;
+text-align:center;
+color:#ffffff;
+font-size:140%;
+font-family: sans-serif;
+ background-image:url("13-cloud-png-image-thumb.png");
+ background-position:relative;
+ background-size:cover;
+	position:fixed;  
+}
+div.e {
+width: 200px;
+height:150px;
+padding-top:84px;
+text-align:center;
+color:#ffffff;
+font-size:140%;
+font-family: sans-serif;
+ background-image:url("13-cloud-png-image-thumb.png");
+ background-position:relative;
+ background-size:cover;
+	position:fixed;
+	}
+div.f {
+width: 200px;
+height:150px;
+padding-top:84px;
+text-align:center;
+font-size:140%;
+color:#ffffff;
+font-family: sans-serif;
+ background-image:url("13-cloud-png-image-thumb.png");
+ background-position:relative;
+ background-size:cover;
+	position:fixed;
+	}
+div.border {
+width: 100%;
+height:500px;
+   padding-bottom:100px;
+ 
+}
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+ 
+}
+
+.button:hover {
+  color:#4d88ff;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 40%;
+  position: relative;
+ 
+  }
+  
+  .popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+</style>
+
+</head>
+<body>
+<div class='border'>
+<div class='a'><a class="button" href="#popup1">jQuery</a></div>
+<div class='b'><a class="button" href="#popup2">Плъгини</a></div>
+<div class='c'><a class="button" href="#popup3">Библиотеки</a></div>
+<div class='d'><a class="button" href="#popup4">Използване</a></div>
+<div class='e'><a class="button" href="#popup5">JavaScript</a></div>
+<div class='f'><a class="button" href="#popup6">За нас</a></div>
+</div>
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Какво е jQuery?</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			jQuery е една от най-известните и най-използваните библиотеки на JavaScript. Нейният създател е Джон Резиг, а през 2006 година е пусната официално в Интернет.
+Библиотеката е проектирана да улесни и опрости писането на JavaScript код, като едновременно с това е гъвкава и може да се надгражда с допълнителни плъгини.
+Библиотеката се поддържа от всички съвременни версии на уеб браузърите.
+За разработването на приложения и уеб сайтове, които ще се ползват през мобилни устройства, може да се ползва jQuery Mobile. Мобилната версия на jQuery се поддържа от множество мобилни платформи.
+За мобилната версия на уебмейл клиента Horde също е ползван jQuery Mobile.
+
+		</div>
+	</div>
+</div>
+
+<div id="popup2" class="overlay">
+	<div class="popup">
+		<h2>Плъгини за jQuery</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			С плъгините се разширяват възможностите на jQuery библиотеката. Съществуват плъгини написани от екипа на jQuery или от независими разработчици.
+С плъгините на jQuery можете да добавите различни функционалности и екстри към сайта и елементите в него. Някои от най-търсените функционалности са: форми, анимация, картинни слайдери, адаптивен дизайн и други.При избора на подходящ плъгин обърнете внимание на това, дали има богата помощна информация и дали се предлага поддръжка или контакт с разработчика.
+Плъгините се включват в сайта както библиотеката jQuery. Първо се сваля файла, записва се в папка и след това се включва в сайта. 
+
+		</div>
+	</div>
+</div>
+
+
+<div id="popup3" class="overlay">
+	<div class="popup">
+		<h2>Що за библиотеки?</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			Библиотеки на JavaScript
+			
+			JavaScript библиотеката представлява предварително написан JavaScript код. Библиотеката може да се ползва, когато е необходимо да се включи някаква функционалност в уебсайта. Вместо да се изгражда от нулата, се ползва вече създадена библиотека, която предлага точно тази функционалност.
+Библиотеките подобряват и намаляват времето за разработка на уеб проекта.
+
+		</div>
+	</div>
+</div>
+
+<div id="popup4" class="overlay">
+	<div class="popup">
+		<h2>Как се използва jQuery?</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			Библиотеката представлява един .js файл, който може да се свали от сайта на jQuery http://jquery.com и да се запише в папката на уеб проекта. След това е необходимо да се вмъкне в кода на сайта:
+	<"script" type="text/javascript" src="jquery.min.js"></"script">
+Може да се включи към уебсайта директно чрез линк към .js файла. Какъв е линка можете да видите на следния адрес: 
+<"script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></"script>
+ 
+
+		</div>
+	</div>
+</div>
+
+<div id="popup5" class="overlay">
+	<div class="popup">
+		<h2>Какво е JavaScript?</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			JavaScript е скриптов език за програмиране, чрез който статичната уеб страница може да се “раздвижи”.
+JavaScript се използва, освен за създаване на интерактивни уеб страници, но и за разработка на игри и създаване на скриптове, които се изпълняват от страна на сървъра. Една от технологиите е Node.js
+Вижте новата блог платформа Ghost работеща с Node.js.
+Динамичният елемент в даден сайт може да бъде в промяна на съдържанието, което се визуализира на уеб страницата при действие от страна на потребителя.
+Създателят на JavaScript е Брендан Ейч. Той е съосновател и на проекта Mozilla като до скоро е негов главен изпълнителен директор.
+През 1995 година JavaScript уеб технологията се появява за първи път в уеб браузъра Netscape Navigator 2.0.
+
+Съществуват и други уеб технологии като Flash, Silverlight и други, които се ползват за добавяне на динамичност в сайта, но JavaScript изпъква и продължава да бъде предпочитана от разработчиците.
+Около 87% от най-популярните 10 милиона уебсайта в Интернет ползват JavaScript.
+
+		</div>
+	</div>
+</div>
+
+<div id="popup6" class="overlay">
+	<div class="popup">
+		<h2></h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			Павел Антонов Душев фак.№ 121216120 <br>
+			Васил Руменов Василев фак.№ 121216102<br>
+			Радостин Атанасов Хвойнов фак.№ 121216140<br>
+			
+			<img src=""><br>
+			
+			Източници на информация: https://blog.superhosting.bg/jquery.html
+			
+		</div>
+	</div>
+</div>
+
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function() {
+  animateDiv();
+  animateDivb();
+  animateDivc();
+  animateDivd();
+  animateDive();
+  animateDivf();
+});
+
+function makeNewPosition() {
+
+  // Get viewport dimensions (remove the dimension of the div)
+  var h = $('.border').height() -50;
+  var w = $('.border').width() - 50;
+
+  var nh = Math.floor(Math.random() * h);
+  var nw = Math.floor(Math.random() * w);
+
+  return [nh, nw];
+
+}
+
+function animateDiv() {
+  var newq = makeNewPosition();
+  var oldq = $('.b').offset();
+  var speed = calcSpeed([oldq.top, oldq.left], newq);
+
+  $('.a').animate({
+    top: newq[0],
+    left: newq[1]
+  }, speed, function() {
+    animateDiv();
+  });
+
+};
+
+
+function animateDivb() {
+  var newqb = makeNewPosition();
+  var oldqb = $('.b').offset();
+  var speed = calcSpeed([oldqb.top, oldqb.left], newqb);
+
+  $('.b').animate({
+    top: newqb[0],
+    left: newqb[1]
+  }, speed, function() {
+    animateDivb();
+  });
+
+};
+
+function animateDivc() {
+  var newqc = makeNewPosition();
+  var oldqc = $('.c').offset();
+  var speed = calcSpeed([oldqc.top, oldqc.left], newqc);
+
+  $('.c').animate({
+    top: newqc[0],
+    left: newqc[1]
+  }, speed, function() {
+    animateDivc();
+  });
+
+};
+
+function animateDivd() {
+  var newqd = makeNewPosition();
+  var oldqd = $('.d').offset();
+  var speed = calcSpeed([oldqd.top, oldqd.left], newqd);
+
+  $('.d').animate({
+    top: newqd[0],
+    left: newqd[1]
+  }, speed, function() {
+    animateDivd();
+  });
+
+};
+
+function animateDive() {
+  var newqe = makeNewPosition();
+  var oldqe = $('.e').offset();
+  var speed = calcSpeed([oldqe.top, oldqe.left], newqe);
+
+  $('.e').animate({
+    top: newqe[0],
+    left: newqe[1]
+  }, speed, function() {
+    animateDive();
+  });
+
+};
+
+function animateDivf() {
+  var newqf = makeNewPosition();
+  var oldqf = $('.f').offset();
+  var speed = calcSpeed([oldqf.top, oldqf.left], newqf);
+
+  $('.f').animate({
+    top: newqf[0],
+    left: newqf[1]
+  }, speed, function() {
+    animateDivf();
+  });
+
+};
+
+
+function calcSpeed(prev, next) {
+
+  var x = Math.abs(prev[1] - next[1]);
+  var y = Math.abs(prev[0] - next[0]);
+
+  var greatest = x > y ? x : y;
+
+  var speedModifier = 0.09;
+
+  var speed = Math.ceil(greatest / speedModifier);
+
+  return speed;
+
+}
+</script>
+</body>
+
+</html>
